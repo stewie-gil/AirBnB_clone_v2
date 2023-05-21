@@ -28,8 +28,7 @@ class State(BaseModel, Base):
 
         @property
         def cities(self):
-            """returns a list of City objects from storage 
-            """
+            """returns a list of City objects from storage"""
 
             cities = list()
 
